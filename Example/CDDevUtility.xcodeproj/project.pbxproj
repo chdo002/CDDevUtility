@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		28A053E542FC8AABCB19A2C4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		28A053E542FC8AABCB19A2C4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		50FE3872EBAF816F31C676CC /* Pods_CDDevUtility_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CDDevUtility_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* CDDevUtility_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CDDevUtility_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -62,9 +62,9 @@
 		70357316BCD768B34B3D967F /* Pods-CDDevUtility_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CDDevUtility_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-CDDevUtility_Example/Pods-CDDevUtility_Example.release.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AD36F6FD386EA5344953ABD8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		AD36F6FD386EA5344953ABD8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		CBA43243647C8548D9921C7B /* Pods-CDDevUtility_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CDDevUtility_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CDDevUtility_Example/Pods-CDDevUtility_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D9FBAB8FDBB18DCA3F1A6A32 /* CDDevUtility.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CDDevUtility.podspec; path = ../CDDevUtility.podspec; sourceTree = "<group>"; };
+		D9FBAB8FDBB18DCA3F1A6A32 /* CDDevUtility.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CDDevUtility.podspec; path = ../CDDevUtility.podspec; sourceTree = "<group>"; };
 		EE5F34C53EEC4304C7270E5E /* Pods-CDDevUtility_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CDDevUtility_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CDDevUtility_Tests/Pods-CDDevUtility_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F732774103920B764CD8BC48 /* Pods-CDDevUtility_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CDDevUtility_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CDDevUtility_Tests/Pods-CDDevUtility_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -248,6 +248,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = chdo002;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = HC7ZK6GR5M;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -510,6 +513,7 @@
 			baseConfigurationReference = CBA43243647C8548D9921C7B /* Pods-CDDevUtility_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HC7ZK6GR5M;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CDDevUtility/CDDevUtility-Prefix.pch";
 				INFOPLIST_FILE = "CDDevUtility/CDDevUtility-Info.plist";
@@ -525,6 +529,7 @@
 			baseConfigurationReference = 70357316BCD768B34B3D967F /* Pods-CDDevUtility_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HC7ZK6GR5M;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CDDevUtility/CDDevUtility-Prefix.pch";
 				INFOPLIST_FILE = "CDDevUtility/CDDevUtility-Info.plist";

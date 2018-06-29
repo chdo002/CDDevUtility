@@ -8,7 +8,7 @@ target 'CDDevUtility_Example' do
 
     pod 'Specta'
     pod 'Expecta'
-    pod 'FBSnapshotTestCase'
+    
     pod 'Expecta+Snapshots'
   end
 end

@@ -22,7 +22,6 @@ TODO: Add long description of the pod here.
                        DESC
 
   s.homepage         = 'https://github.com/chdo002/CDDevUtility'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'chdo002' => '1107661983@qq.com' }
   s.source           = { :git => 'https://github.com/chdo002/CDDevUtility.git', :tag => s.version.to_s }
