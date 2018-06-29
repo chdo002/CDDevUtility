@@ -10,9 +10,9 @@
 @implementation CDPerformance
 +(void)timeCost:(void(^)(void))block{
     if (block) {
-        NSTimeInterval t1 = [[NSDate date] timeIntervalSince1970];
+        double t1 = CACurrentMediaTime();
         block();
-        NSTimeInterval t2 = [[NSDate date] timeIntervalSince1970];
+        double t2 = CACurrentMediaTime();
         NSLog(@"消耗时间：%f",t2 - t1);
     }
 }

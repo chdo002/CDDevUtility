@@ -12,6 +12,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    
+    [CDPerformance timeCost:^{
+        sleep(2);
+    }];
     return YES;
 }
 
