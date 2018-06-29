@@ -1,0 +1,1 @@
+pod trunk push CDDevUtility.podspec --allow-warnings --verbose
