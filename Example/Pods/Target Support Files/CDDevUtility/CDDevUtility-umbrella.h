@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "CDDevuUtilty.h"
+#import "CDPerformance.h"
 
 FOUNDATION_EXPORT double CDDevUtilityVersionNumber;
 FOUNDATION_EXPORT const unsigned char CDDevUtilityVersionString[];

@@ -1,5 +1,5 @@
 use_frameworks!
-
+platform :ios, '8.0'
 target 'CDDevUtility_Example' do
   pod 'CDDevUtility', :path => '../'
 

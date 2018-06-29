@@ -1,8 +1,8 @@
 {
   "name": "CDDevUtility",
   "version": "0.1.0",
-  "summary": "A short description of CDDevUtility.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "iOS开发工具包.",
+  "description": "iOS开发工具包.iOS开发工具包.",
   "homepage": "https://github.com/chdo002/CDDevUtility",
   "license": {
     "type": "MIT",
